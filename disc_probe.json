@@ -1,0 +1,31 @@
+{
+  "cue_path": "disc1.cue",
+  "cue_name": "disc1.cue",
+  "bin_name": "disc1.bin",
+  "track_count": 1,
+  "data_track_size": 617261232,
+  "data_track_md5": "b0e6559c00e2510c3d72045bbfae0e14",
+  "data_track_sha1": "cdd0ddbe768bcd89a04132b08d050164b3f13794",
+  "data_track_crc32": "0f687cd2",
+  "boot_exe": "SLUS_002.36",
+  "serial": "SLUS-00236",
+  "serial_exe": "SLUS_002.36",
+  "volume_id": "FADE_TO_BLACK",
+  "display_name": "fade-to-black-",
+  "load_address": "0x80010800",
+  "entry_pc": "0x80011240",
+  "text_size": "0x00007000",
+  "stack_base": "0x801FFFF0",
+  "require_cue": true,
+  "required_disc_fp": "9ee2c991550fc3c6db8efe476bdf63a98c5a0f0249b9039aef97a7f7caaf8e9d",
+  "boot_exe_sha256": "75e34680cdb1031544317ed701bcacf8e582e1fcd632675cfc94590a38e2f8a1",
+  "seed_count": 72,
+  "warnings": [
+    "cue has only 1 TRACK — Track-01-only dumps fail multi-track netplay/catalog gates; prefer a full Redump cue."
+  ],
+  "notes": [
+    "entry_pc/load_address/text_size/stack_base taken from PS-X EXE header.",
+    "seeds are first-pass boot-EXE JAL targets (+ entry); expect to grow as overlays / runtime paths are discovered.",
+    "required_disc_fp is psxrecomp-toc-v1 (matches runtime DiscIdentity)."
+  ]
+}
